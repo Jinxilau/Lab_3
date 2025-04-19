@@ -1,0 +1,126 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+}
+
+.mypic {
+    border: 2px solid black;
+    margin: 0 0 5px 0;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0;
+    color: wheat;
+    text-shadow: 2px 2px 2px black;
+}
+
+.address > p {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    flex-basis: 10%;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 5%;
+    max-width: 50%;
+    flex-basis: 70%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.mybio {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.mybio td {
+    text-align: start;
+}
+
+.mybio th {
+    text-align: end;
+}
+
+.mybio p {
+    margin: 10px;
+}
+
+.circle-button {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 50px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.circle-button:hover {
+    box-shadow: 0px 8px 12px black;
+}
+
+.circle-button:active {
+    box-shadow: inset -2px 5px 0px gray;
+    filter: brightness(95%);
+}
+
+.hobby1, .hobby2, .hobby3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby1 h2, .hobby2 h2, .hobby3 h2 {
+    flex-basis: 50px;
+}
+
+/* .hobby1 p, .hobby2 p, .hobby3 p {
+    flex-basis: 200px;
+    text-align: center;
+} */
+.hobby1 div, .hobby2 div, .hobby3 div {
+    flex-basis: 200px;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+}
