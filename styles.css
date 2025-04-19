@@ -37,6 +37,10 @@ h1 {
     margin: 0;
 }
 
+.address > p:last-of-type {
+    margin: 0 0 20px 0;
+}
+
 header {
     flex-basis: 10%;
 }
